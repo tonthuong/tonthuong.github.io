@@ -437,11 +437,19 @@ THIẾT KẾ ĐỒ HỌA</strong></a>
                                     justify-content: center;
                                     align-items: center;
                                     border-radius: 50%;
+                                    opacity: 0;
+                                    transition: all ease 0.8s;
                                 }
                                 #arrow:hover{
                                     background-color: brown;
+                                    opacity: 1;
                                 }
-                                
+                                #arrow:
+                                @media only screen and (max-width:740px) {
+                                    #arrow {
+                                        display: none;
+                                    }
+                                }
 
                             </style>
                                 
